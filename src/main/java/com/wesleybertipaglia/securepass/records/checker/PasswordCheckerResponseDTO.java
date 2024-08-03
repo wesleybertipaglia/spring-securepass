@@ -1,4 +1,4 @@
-package com.wesleybertipaglia.securepass.records;
+package com.wesleybertipaglia.securepass.records.checker;
 
 import java.util.List;
 

@@ -1,12 +1,12 @@
-package com.wesleybertipaglia.securepass.PasswordChecker;
+package com.wesleybertipaglia.securepass.checker;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import com.wesleybertipaglia.securepass.records.PasswordCheckerRequestDTO;
-import com.wesleybertipaglia.securepass.records.PasswordCheckerResponseDTO;
+import com.wesleybertipaglia.securepass.records.checker.PasswordCheckerRequestDTO;
+import com.wesleybertipaglia.securepass.records.checker.PasswordCheckerResponseDTO;
 import com.wesleybertipaglia.securepass.services.PasswordCheckerService;
 
 public class PasswordCheckerServiceTests {

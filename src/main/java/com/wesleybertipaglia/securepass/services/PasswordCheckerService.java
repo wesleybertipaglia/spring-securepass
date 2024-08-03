@@ -1,11 +1,12 @@
 package com.wesleybertipaglia.securepass.services;
 
 import org.springframework.stereotype.Service;
+
+import com.wesleybertipaglia.securepass.records.checker.PasswordCheckerRequestDTO;
+import com.wesleybertipaglia.securepass.records.checker.PasswordCheckerResponseDTO;
+
 import java.util.ArrayList;
 import java.util.List;
-
-import com.wesleybertipaglia.securepass.records.PasswordCheckerRequestDTO;
-import com.wesleybertipaglia.securepass.records.PasswordCheckerResponseDTO;
 
 @Service
 public class PasswordCheckerService {
