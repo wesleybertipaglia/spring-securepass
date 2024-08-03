@@ -1,10 +1,8 @@
 # Secure Pass
 
-This application is a group of two services, one for generating secure passwords, one for checking the strength of a password, and another for storing them.
+This application is a group of services that help users to generate, check, and store secure passwords. It's built with Java, Spring Boot, PostgreSQL, and Docker.
 
 It's my implementation of the Password Generator and Password Checker challenges from the [Back-end Challenges](https://github.com/wesleybertipaglia/backend-challenges/) repository.
-
-The application is built with Java, Spring Boot, PostgreSQL, and Docker.
 
 ## Table of Contents
 
