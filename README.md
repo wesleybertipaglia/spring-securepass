@@ -21,16 +21,6 @@ The application includes the following functionalities:
 - Password Generator
 - Password Checker
 - Password Storage
-- User Authentication and Authorization
-- Pagination, sorting, and filtering
-- Entity Validation
-- Exception Handling
-- API documentation (Swagger)
-- Automated tests
-- Logging
-- Production, Development, and Test profiles
-- Docker support (Dockerfile, docker-compose)
-- CI/CD pipeline
 
 ## Getting Started
 
