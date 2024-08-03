@@ -10,6 +10,8 @@ It's my implementation of the Password Generator and Password Checker challenges
 - [Getting Started](#getting-started)
   - [Running with Docker](#running-with-docker)
   - [Running with Maven](#running-with-maven)
+  - [Accessing the application](#accessing-the-application)
+- [Endpoints](#endpoints)
 - [Entities](#entities)
 - [Contributing](#contributing)
 - [License](#license)
@@ -66,9 +68,35 @@ To run the application, execute the following command:
 mvn spring-boot:run
 ```
 
-> The application will be available at `http://localhost:8080`.
+### Accessing the application
 
-> The API documentation is available at `http://localhost:8080/swagger-ui.html`.
+- The application will be available at `http://localhost:8080`.
+- The API documentation is available at `http://localhost:8080/swagger-ui.html`.
+
+
+## Endpoints
+
+The following table shows the available API endpoints:
+
+### Auth
+- `POST /auth/register`: Register a new user.
+- `POST /auth/login`: Login with username and password.
+- `POST /auth/logout`: Logout the current user.
+- `POST /auth/refresh`: Refresh the access token.
+- `GET /auth/me`: Get the current user.
+
+### Password Generator
+- `POST /passwords/generate`: Generate a new password.
+
+### Password Checker
+- `GET /passwords/strength`: Check the strength of a password.
+
+### Password Storage
+- `POST /passwords`: Store a password.
+- `GET /passwords`: Get all stored passwords.
+- `GET /passwords/{id}`: Get a stored password by id.
+- `PUT /passwords/{id}`: Update a stored password by id.
+- `DELETE /passwords/{id}`: Delete a stored password by id.
 
 ## Entities
 
