@@ -77,7 +77,7 @@ The following Entity-Relationship Diagram (ERD) shows the properties of the Demo
 ```mermaid
 classDiagram
     class User {
-        + Long id
+        + UUID id
         + String username
         + String password
         + String role
@@ -86,7 +86,7 @@ classDiagram
     }
 
     class Password {
-        + Long id
+        + UUID id
         + String value
         + String strength
         + LocalDateTime createdAt
