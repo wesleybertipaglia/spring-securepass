@@ -46,6 +46,26 @@ To run the application, execute the following command:
 docker-compose up
 ```
 
+### Running with Maven
+
+**1. Prerequisites**
+
+- **Java 17**, you can download and install it from [here](https://www.oracle.com/java/technologies/javase-jdk17-downloads.html).
+- **PostgreSQL**, you can download and install it from [here](https://www.postgresql.org/download/).
+
+**2. Create the .env file**
+
+- Create a `.env` file in the root directory following the .env.example file.
+- Edit the `.env` file and set the environment variables.
+
+**3. Running**
+
+To run the application, execute the following command:
+
+```bash
+mvn spring-boot:run
+```
+
 > The application will be available at `http://localhost:8080`.
 
 > The API documentation is available at `http://localhost:8080/swagger-ui.html`.
