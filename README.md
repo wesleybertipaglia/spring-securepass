@@ -50,7 +50,7 @@ docker-compose up
 
 **1. Prerequisites**
 
-- **Java 17**, you can download and install it from [here](https://www.oracle.com/java/technologies/javase-jdk17-downloads.html).
+- **Java 17**, you can download and install it from [here](https://www.oracle.com/java/technologies/downloads).
 - **PostgreSQL**, you can download and install it from [here](https://www.postgresql.org/download/).
 
 **2. Create the .env file**
