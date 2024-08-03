@@ -8,8 +8,8 @@ It's my implementation of the Password Generator and Password Checker challenges
 
 - [Features](#features)
 - [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Running](#running)
+  - [Running with Docker](#running-with-docker)
+  - [Running with Maven](#running-with-maven)
 - [Entities](#entities)
 - [Contributing](#contributing)
 - [License](#license)
