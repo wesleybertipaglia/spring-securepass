@@ -89,7 +89,7 @@ The following table shows the available API endpoints:
 - `POST /passwords/generate`: Generate a new password.
 
 ### Password Checker
-- `GET /passwords/strength`: Check the strength of a password.
+- `POST /passwords/check`: Check the strength of a password.
 
 ### Password Storage
 - `POST /passwords`: Store a password.
